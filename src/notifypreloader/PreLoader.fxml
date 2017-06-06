@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane prefHeight="380.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox style="-fx-background-color: #fffeee;">
+         <children>
+            <Pane prefHeight="112.0" prefWidth="500.0" style="-fx-background-color: #0b6693;">
+               <children>
+                  <Label layoutX="173.0" layoutY="15.0" text="Notify" textFill="WHITE">
+                     <font>
+                        <Font name="Eras Bold ITC" size="48.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane prefHeight="250.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="170.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@coloured.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="189.0" layoutY="164.0" text="Loading....">
+                     <font>
+                        <Font name="Eras Medium ITC" size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane prefHeight="100.0" prefWidth="300.0">
+               <children>
+                  <JFXSpinner layoutX="226.0" radius="20.0" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</StackPane>
